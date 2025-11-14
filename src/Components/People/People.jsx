@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 export default function People() {
@@ -13,7 +13,7 @@ export default function People() {
   }
 
   useEffect(() => {
-    getpeople();
+    getpeople(1);
   }, [])
 
   return <>

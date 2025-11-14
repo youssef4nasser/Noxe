@@ -10,7 +10,7 @@ export default function MediaItem({item}) {
          {item.poster_path?<img src={'https://image.tmdb.org/t/p/w500'+item.poster_path} className='w-100' alt="" />: <img src={'https://image.tmdb.org/t/p/w500'+item.profile_path} className='w-100' alt="" />}
          
  
-         {item.vote_average? <div className="vote top-0 end-0 position-absolute p-1">{item.vote_average.toFixed(1)}</div>:""}
+         {item.vote_average? <div className="top-0 end-0 position-absolute p-1">{item.vote_average.toFixed(1)}</div>:""}
      
          <div className='position-absolute display-details display-6 flex-column text-center top-0 start-0 w-100 h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center'>
             <h4>{item.title} {item.name}</h4> 

@@ -14,7 +14,7 @@ export default function Tvshow() {
   }
 
   useEffect(() => {
-    gettv();
+    gettv(1);
   }, [])
 
   return <>
@@ -25,7 +25,7 @@ export default function Tvshow() {
 
           <img src={'https://image.tmdb.org/t/p/w500'+tv.poster_path} className='w-100' alt="" /> <img src={'https://image.tmdb.org/t/p/w500'+tv.profile_path} className='w-100' alt="" />
   
-        <div className="vote top-0 end-0 position-absolute p-1">{tv.vote_average}</div>
+        <div className="top-0 end-0 position-absolute p-1">{tv.vote_average}</div>
 
         <div className='position-absolute display-details flex-column text-center top-0 start-0 w-100 h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center'>
           <h4>{tv.name}</h4> <br />

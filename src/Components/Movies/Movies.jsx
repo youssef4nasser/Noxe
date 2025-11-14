@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import MediaItem from '../MediaItem/MediaItem';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ export default function Movies() {
   }
 
   useEffect(() => {
-    getmovies();
+    getmovies(1);
   }, [])
 
   return (
@@ -27,7 +27,7 @@ export default function Movies() {
                
                 <img src={'https://image.tmdb.org/t/p/w500' + movie.poster_path} className="w-100" alt="" />
               
-                <div className="vote top-0 end-0 position-absolute p-1">{movie.vote_average}</div>
+                <div className="top-0 end-0 position-absolute p-1">{movie.vote_average}</div>
                
                 <div className='position-absolute display-details display-6 flex-column text-center top-0 start-0 w-100 h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center'>
                   <h4>{movie.title}</h4> <br />
