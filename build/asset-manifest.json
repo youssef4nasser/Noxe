@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Noxe/static/css/main.9714ccd3.css",
+    "main.js": "/Noxe/static/js/main.e2be0615.js",
+    "static/media/fa-solid-900.ttf": "/Noxe/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Noxe/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Noxe/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Noxe/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Noxe/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Noxe/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Noxe/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Noxe/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Noxe/index.html",
+    "main.9714ccd3.css.map": "/Noxe/static/css/main.9714ccd3.css.map",
+    "main.e2be0615.js.map": "/Noxe/static/js/main.e2be0615.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9714ccd3.css",
+    "static/js/main.e2be0615.js"
+  ]
+}
